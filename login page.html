@@ -1,0 +1,94 @@
+
+<!doctype html>
+<html>
+    <title>GymFitPro</title>
+    <header>
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+      <!-- CSS Stylesheets -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+
+      <!-- Font Awesome -->
+      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+      <!-- Bootstrap Scripts -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <h1>
+        Hi, welcome to the GymFitPro website that will make your life easy as you get your body healthy.
+    </h1>
+    </header>
+
+    <body class="colored-section">
+
+<form name="loginForm" method="post" action="reg.html">
+ <table class="colored-section" width="20%" align="center">
+  <tr>
+   <td colspan=2>
+    <center>
+     <font size=4>
+      <b>
+        Student login
+      </b>
+     </font>
+    </center>
+   </td>
+  </tr>
+
+ <tr>
+  <td>Username:</td>
+   <td>
+      <input type="number" size=9 name="user">
+       <br/>
+   </td>
+ </tr>
+
+
+<tr>
+    <br/>
+  <td>Password:</td>
+  <td>
+      <input type="Password" size=13 name="pass">
+  </td>
+</tr>
+
+<tr>
+  <td>
+    <input type="submit" onclick="return check(this.form)"> <a href="homepage.HTML">Login</a>
+  </td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+
+if(form.user.value == "public" && form.pass.value == "peasants")
+{
+	return true;
+}
+else
+{
+	alert("Password or Username is incorrect")
+	return false;
+}
+}
+	      </script><br /> <br />
+
+        <H4>
+            If you are already registered  fill in your details and login, if not click on the the following link:
+            <a href="landing page.html">SIGN UP NOW</a>
+
+        </H4>
+
+    </body>
+
+</html>
